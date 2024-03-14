@@ -1,0 +1,19 @@
+
+ #container {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .photo {
+    padding: 10px;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 1px solid lightgray;   
+ }
+ 
+ .photo img {
+    width: 200px;
+ }
+ 
+ .photo p {
+    text-align: center;
+ }

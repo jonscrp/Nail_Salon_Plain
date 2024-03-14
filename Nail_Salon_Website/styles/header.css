@@ -1,0 +1,57 @@
+
+/**  HEADER**/
+
+header {
+    position: fixed;
+    z-index: 1;
+    background-color: Black;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+    left: 0px;
+    top: 0px
+}
+
+header > nav > a{
+    color: white;
+}
+
+header > h1{
+    color: white;
+}
+
+
+/** MAIN **/
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+    left: 0px;
+    top: 0px;
+
+
+
+}
+
+
+
+/** FOOTER **/
+
+
+footer{
+    display: flex;
+    flex-direction: rows;
+   
+    justify-content:  space-around;
+    background-color: Black;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+    left: 0px;
+    top: 0px;
+    color: white;
+}
